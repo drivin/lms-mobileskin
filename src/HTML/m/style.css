@@ -36,7 +36,7 @@ body {
 
 .modal .modal-dialog { max-width: 100%; }
 .modal .modal-content { border: none; border-radius: 0px; width: 100%; }
-.modal .modal-body { padding: 0px; }
+/*.modal .modal-body { padding: 0px; }*/
 .modal .modal-body .list-group { overflow: scroll; }
 .modal .modal-body .list-group-item { padding: 3px; border: none; border-radius: 0px; margin-bottom: 0px; }
 
