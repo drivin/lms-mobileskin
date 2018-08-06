@@ -100,14 +100,18 @@ function rescaled($img, context, url) {
     /* Let the server handle image rescaling for
        playliste etc
        foo.png -> foo_128x128.png*/
-
-    const [w,h] = [128,128];
+	   
+    /* FIXME: don't work with spotify images */
+    /*const [w,h] = [128,128];
     const new_url = ''.concat(
         url.slice(0, url.lastIndexOf('.')),
         '_', w, 'x', h,
         url.slice(url.lastIndexOf('.')));
 
     return $img.attr('src', new_url);
+	*/
+	
+	return $img.attr('src', url);
 }
 
 /* ------------------------------------------------------------------------ */
